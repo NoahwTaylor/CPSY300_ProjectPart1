@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import matplotlib
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')
 
 #  output directory for visuals
 os.makedirs('visualizations', exist_ok=True)
